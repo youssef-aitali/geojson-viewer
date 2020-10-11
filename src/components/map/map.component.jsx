@@ -38,7 +38,7 @@ const Map = () => {
 		});
 	});
 
-	return <div ref={mapRef} />;
+	return <div className="webmap" ref={mapRef} />;
 };
 
 export default Map;
